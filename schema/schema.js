@@ -17,8 +17,8 @@ const UserType = new GraphQLObjectType({
 })
 
 const users = [
-  { id: 23, firstName: 'Bill', age: 20 },
-  { id: 27, firstName: 'Samanha', age: 21 },
+  { id: "23", firstName: 'Bill', age: 20 },
+  { id: "27", firstName: 'Samanha', age: 21 },
 ]
 
 const RootQuery = new GraphQLObjectType({
