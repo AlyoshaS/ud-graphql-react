@@ -1,5 +1,4 @@
 const graphql = require('graphql')
-
 const {
   GraphQLObjectType,
   GraphQLString,
@@ -15,11 +14,6 @@ const UserType = new GraphQLObjectType({
     age: { type: GraphQLInt }
   }
 })
-
-const users = [
-  { id: "23", firstName: 'Bill', age: 20 },
-  { id: "27", firstName: 'Samanha', age: 21 },
-]
 
 const RootQuery = new GraphQLObjectType({
   name: 'RootQueryType',
